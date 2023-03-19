@@ -1,0 +1,13 @@
+/* CUERPO */
+
+.main{
+    background-color: black;
+&__h1{
+    color: $Crojo;
+    font-family: $Lbebas;
+}
+&__p{
+    color: $Crojo;
+    font-family: $Lroboto;
+}
+}

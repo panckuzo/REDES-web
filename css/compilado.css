@@ -1,0 +1,21 @@
+/* COLORES */
+/* LETRAS */
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* CUERPO */
+.main {
+  background-color: black; }
+  .main__h1 {
+    color: #e30613;
+    font-family: "Bebas Neue", cursive; 
+    font-size: 2rem;
+  }
+  .main__p {
+    color: #e30613;
+    font-family: "Roboto", sans-serif; 
+    font-size: 1.5rem;
+  }
