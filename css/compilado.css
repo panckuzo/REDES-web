@@ -28,12 +28,30 @@ body {
     padding: 0rem 3rem 2rem 3rem; }
     .main__div--flex {
       flex-direction: row; }
+    .main__div--img {
+      background-color: black;
+      max-width: 110rem;
+      padding: 1rem;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      align-content: space-between; }
   .main__p {
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
     font-size: 1.5rem;
-    text-align: center; }
+    text-align: left; }
+  .main__img {
+    max-width: 100%;
+    text-justify: distribute;
+    padding: 0rem 0rem 2rem 0rem; }
+
+strong {
+  font-family: "Bebas Neue", cursive; }
 
 .servicios {
   background-color: black;
@@ -54,9 +72,9 @@ body {
     max-width: 70%;
     background-color: black;
     align-items: center;
-    margin: auto;}
-    .servicios__carrusel--a{
-      text-decoration: none;}
+    margin: auto; }
+    .servicios__carrusel--a {
+      text-decoration: none; }
     .servicios__carrusel--h {
       color: white;
       text-decoration: none;
