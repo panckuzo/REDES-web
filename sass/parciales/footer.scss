@@ -1,11 +1,27 @@
 .footer{
-    background-color: black;
+    
+    background: -moz-linear-gradient(165deg, rgba(0,0,0,1) 19%, rgba(227,6,19,1) 85%);
+    background: -webkit-linear-gradient(165deg, rgba(0,0,0,1) 19%, rgba(227,6,19,1) 85%);
+    background: linear-gradient(165deg, rgba(0,0,0,1) 19%, rgba(227,6,19,1) 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#e30613",GradientType=1);
+    
+    width: 100%;
+    
+    &__div{
+        margin-top: 3rem;
+    }
 
     &__p{
         font-size: $Lbebas;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: bolder;
-        color: $Crojo;
+        color: white;
+        text-align: center;
+    }
+
+    &__a{
+        color: grey;
+        font-size: 2rem;
     }
 
 }
